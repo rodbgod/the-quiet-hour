@@ -1,0 +1,112 @@
+[
+  {
+    "id": "epictetus-long-i",
+    "text": "Of things some are in our power, and others are not. In our power are opinion, movement towards a thing, desire, aversion, turning from a thing; and in a word, whatever are our acts. Not in our power are the body, property, reputation, offices (magisterial power), and in a word, whatever are not our own acts. And the things in our power are by nature free, not subject to restraint or hindrance; but the things not in our power are weak, slavish, subject to restraint, in the power of others.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "I",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What did you try to control today that was never yours to control?",
+    "context": "The opening lines of the Encheiridion, the handbook compiled by his student Arrian. This division between what is up to us and what is not underpins all later Stoic practice. Epictetus was born a slave, which gives weight to his claim that the inner life cannot be owned by anyone else.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-v",
+    "text": "Men are disturbed not by the things which happen, but by the opinions about the things; for example, death is nothing terrible, for if it were it would have seemed so to Socrates; for the opinion about death that it is terrible, is the terrible thing. When then we are impeded, or disturbed, or grieved, let us never blame others, but ourselves—that is, our opinions. It is the act of an ill-instructed man to blame others for his own bad condition; it is the act of one who has begun to be instructed, to lay the blame on himself; and of one whose instruction is completed, neither to blame another, nor himself.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "V",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "Who are you blaming right now, yourself included, for something your own view of it has made worse?",
+    "context": "The closing lines describe three stages of progress: the beginner blames others, the student blames himself, and the one who has finished learning blames no one. Socrates, who faced his execution calmly, is the proof that death itself is not the terrible thing.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-ix",
+    "text": "Disease is an impediment to the body, but not to the will, unless the will itself chooses. Lameness is an impediment to the leg, but not to the will. And add this reflection on the occasion of everything that happens; for you will find it an impediment to something else, but not to yourself.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "IX",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What limitation are you facing that restricts your circumstances but not the person you choose to be?",
+    "context": "Epictetus was lame, by some accounts from mistreatment while enslaved, so the example is his own. \"Will\" here means the faculty of choice, the one thing he held no illness or master could reach.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xii",
+    "text": "Begin then from little things. Is the oil spilled? Is a little wine stolen? Say on the occasion, at such price is sold freedom from perturbation; at such price is sold tranquillity, but nothing is got for nothing.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XII",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What small irritation today could you let go of as the price of your own calm?",
+    "context": "Stoic training starts small. Epictetus frames each minor loss as a transaction: a little spilled oil is the price paid for peace of mind, and a bargain at that.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xv",
+    "text": "Remember that in life you ought to behave as at a banquet. Suppose that something is carried round and is opposite to you. Stretch out your hand and take a portion with decency. Suppose that it passes by you. Do not detain it. Suppose that it is not yet come to you. Do not send your desire forward to it, but wait till it is opposite to you.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XV",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What are you reaching for before it has come to you?",
+    "context": "At a Roman dinner, dishes were carried around the table. Epictetus uses the image to teach patience and grace: take what is offered, let pass what passes, and do not send your desire ahead of you.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xix",
+    "text": "You can be invincible, if you enter into no contest in which it is not in your power to conquer. Take care then when you observe a man honored before others or possessed of great power or highly esteemed for any reason, not to suppose him happy, and be not carried away by the appearance. For if the nature of the good is in our power, neither envy nor jealousy will have a place in us.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XIX",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "Which contest are you in right now whose outcome was never yours to decide?",
+    "context": "Invincibility here does not mean winning every fight, but entering only the ones decided by your own choices. Once the good is placed there, other people's status stops being a threat and envy has nothing to feed on.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xx",
+    "text": "Remember that it is not he who reviles you or strikes you, who insults you, but it is your opinion about these things as being insulting. When then a man irritates you, you must know that it is your own opinion which has irritated you. Therefore especially try not to be carried away by the appearance. For if you once gain time and delay, you will more easily master yourself.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XX",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "Who irritated you recently, and what opinion of yours did the actual irritating?",
+    "context": "Epictetus separates the act, a harsh word or even a blow, from the judgment \"I have been insulted.\" His practical advice is time: a short delay lets reason catch up with the first reaction.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xxii",
+    "text": "If you desire philosophy, prepare yourself from the beginning to be ridiculed, to expect that many will sneer at you, and say, He has all at once returned to us as a philosopher; and whence does he get this supercilious look for us? Do you not show a supercilious look; but hold on to the things which seem to you best as one appointed by God to this station. And remember that if you abide in the same principles, these men who first ridiculed will afterwards admire you; but if you shall have been overpowered by them, you will bring on yourself double ridicule.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XXII",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What change are you holding back from because of what others might say?",
+    "context": "Epictetus warns his students that taking a new way of life seriously invites mockery from old friends. His advice cuts both ways: do not put on airs, and do not give up.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xxiii",
+    "text": "If it should ever happen to you to be turned to externals in order to please some person, you must know that you have lost your purpose in life. Be satisfied then in everything with being a philosopher; and if you wish to seem also to any person to be a philosopher, appear so to yourself, and you will be able to do this.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XXIII",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What have you done lately mainly to be seen a certain way by someone else?",
+    "context": "A short warning against performing virtue for an audience. For Epictetus, \"philosopher\" meant someone living by their principles, and the only approval that matters for that is your own.",
+    "approved": true
+  },
+  {
+    "id": "epictetus-long-xxvi",
+    "text": "We may learn the wish (will) of nature from the things in which we do not differ from one another: for instance, when your neighbor’s slave has broken his cup, or anything else, we are ready to say forthwith, that it is one of the things which happen. You must know then that when your cup also is broken, you ought to think as you did when your neighbor’s cup was broken. Transfer this reflection to greater things also.",
+    "author": "Epictetus",
+    "work": "Encheiridion",
+    "reference": "XXVI",
+    "translation": "George Long (1877), Project Gutenberg #10661",
+    "question": "What misfortune of your own would you call \"just one of those things\" if it had happened to a friend?",
+    "context": "A test of perspective: we stay calm about a neighbor's broken cup and are upset by our own. Epictetus asks us to judge our losses with the same even eye we use for other people's.",
+    "approved": true
+  }
+]
