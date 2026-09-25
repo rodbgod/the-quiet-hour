@@ -3,4 +3,17 @@
     <string name="ritual_continue">Continue</string>
     <string name="ritual_load_failed">Today\'s passage could not be loaded.</string>
     <string name="ritual_retry">Try again</string>
+    <string name="question_begin_pause">Sit with it</string>
+    <string name="pause_skip">Skip</string>
+    <string name="pause_breathing_description">Breathe in as the circle grows, out as it shrinks.</string>
+    <string name="pause_exit_title">End the pause?</string>
+    <string name="pause_exit_message">Today\'s ritual counts once the pause is finished or skipped.</string>
+    <string name="pause_exit_confirm">End</string>
+    <string name="pause_exit_stay">Stay</string>
+    <string name="reflection_label">Your reflection</string>
+    <string name="reflection_privacy">Saved only on this phone. Never uploaded, never analyzed, never shown to anyone.</string>
+    <string name="reflection_done">Done</string>
+    <string name="close_streak_day">Day %d.</string>
+    <string name="close_see_you">Until tomorrow.</string>
+    <string name="close_done">Close</string>
 </resources>

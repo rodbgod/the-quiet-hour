@@ -8,6 +8,7 @@ import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
 import br.com.rodsil.quiethour.data.DeliveredPassageDao
 import br.com.rodsil.quiethour.data.QuietHourDatabase
+import br.com.rodsil.quiethour.data.RitualRecordDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -25,6 +26,8 @@ object AppModule {
     Room.databaseBuilder(context, QuietHourDatabase::class.java, "quiet-hour.db").build()
 
   @Provides fun deliveredPassageDao(database: QuietHourDatabase): DeliveredPassageDao = database.deliveredPassageDao()
+
+  @Provides fun ritualRecordDao(database: QuietHourDatabase): RitualRecordDao = database.ritualRecordDao()
 
   @Provides
   @Singleton

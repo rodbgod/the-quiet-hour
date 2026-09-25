@@ -14,6 +14,7 @@ private val LightColors =
     onBackground = Ink,
     onSurface = Ink,
     onSurfaceVariant = InkMuted,
+    surfaceContainerHigh = Linen,
   )
 
 private val DarkColors =
@@ -24,6 +25,7 @@ private val DarkColors =
     onBackground = Chalk,
     onSurface = Chalk,
     onSurfaceVariant = ChalkMuted,
+    surfaceContainerHigh = Charcoal,
   )
 
 @Composable
