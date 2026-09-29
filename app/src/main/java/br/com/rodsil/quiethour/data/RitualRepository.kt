@@ -12,6 +12,9 @@ class RitualRepository @Inject constructor(private val records: RitualRecordDao)
   suspend fun complete(date: LocalDate, passageId: String, pauseSkipped: Boolean) =
     withContext(Dispatchers.IO) { records.insertCompletedDay(CompletedDay(date.toEpochDay(), passageId, pauseSkipped)) }
 
+  suspend fun isCompleted(date: LocalDate): Boolean =
+    withContext(Dispatchers.IO) { records.isCompleted(date.toEpochDay()) }
+
   suspend fun saveReflection(date: LocalDate, passageId: String, text: String) =
     withContext(Dispatchers.IO) { records.upsertReflection(Reflection(date.toEpochDay(), passageId, text)) }
 

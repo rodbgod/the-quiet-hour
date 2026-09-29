@@ -38,9 +38,6 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import br.com.rodsil.quiethour.R
 
-// ponytail: fixed until the settings screen (M3) makes it 30 / 60 / 120 / 180 s.
-const val PAUSE_DURATION_MS = 60_000L
-
 private const val BREATHE_IN_MS = 4_000
 private const val BREATH_CYCLE_MS = 10_000
 private const val EXHALED_SCALE = 0.55f
@@ -55,13 +52,19 @@ private val SCREEN_PADDING = 32.dp
  * stop while the app is in the background, so the pause only completes in the foreground.
  */
 @Composable
-fun PauseScreen(question: String, onFinished: () -> Unit, onSkip: () -> Unit, onAbandon: () -> Unit) {
+fun PauseScreen(
+  question: String,
+  durationMs: Long,
+  onFinished: () -> Unit,
+  onSkip: () -> Unit,
+  onAbandon: () -> Unit,
+) {
   val startedAt = rememberSaveable { SystemClock.elapsedRealtime() }
   val currentOnFinished by rememberUpdatedState(onFinished)
   val progress by
     produceState(0f, startedAt) {
       while (value < 1f) {
-        withFrameMillis { value = ((SystemClock.elapsedRealtime() - startedAt).toFloat() / PAUSE_DURATION_MS).coerceAtMost(1f) }
+        withFrameMillis { value = ((SystemClock.elapsedRealtime() - startedAt).toFloat() / durationMs).coerceAtMost(1f) }
       }
       currentOnFinished()
     }

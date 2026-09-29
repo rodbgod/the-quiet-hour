@@ -12,3 +12,9 @@ import kotlinx.serialization.Serializable
 @Serializable data object ReflectionStep : NavKey
 
 @Serializable data object CloseStep : NavKey
+
+@Serializable data object JournalStep : NavKey
+
+@Serializable data class JournalEntryStep(val epochDay: Long) : NavKey
+
+@Serializable data object SettingsStep : NavKey

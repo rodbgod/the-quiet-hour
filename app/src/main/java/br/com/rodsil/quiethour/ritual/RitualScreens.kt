@@ -3,6 +3,7 @@ package br.com.rodsil.quiethour.ritual
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -106,7 +107,7 @@ fun ReflectionScreen(question: String, onDone: (String) -> Unit) {
 }
 
 @Composable
-fun CloseScreen(streak: Streak, onClose: () -> Unit) {
+fun CloseScreen(streak: Streak, onJournal: () -> Unit, onSettings: () -> Unit, onClose: () -> Unit) {
   Column(
     Modifier.fillMaxSize().safeDrawingPadding().padding(SCREEN_PADDING),
     verticalArrangement = Arrangement.Center,
@@ -121,7 +122,11 @@ fun CloseScreen(streak: Streak, onClose: () -> Unit) {
     }
     Text(stringResource(R.string.close_see_you), style = MaterialTheme.typography.bodyMedium)
     Spacer(Modifier.height(ATTRIBUTION_GAP))
-    TextButton(onClick = onClose) { Text(stringResource(R.string.close_done)) }
+    Row {
+      TextButton(onClick = onJournal) { Text(stringResource(R.string.close_journal)) }
+      TextButton(onClick = onSettings) { Text(stringResource(R.string.close_settings)) }
+      TextButton(onClick = onClose) { Text(stringResource(R.string.close_done)) }
+    }
   }
 }
 
